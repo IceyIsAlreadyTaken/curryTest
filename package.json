@@ -1,0 +1,31 @@
+{
+  "name": "curry-and-partial",
+  "version": "1.0.1",
+  "description": "curry function and partial function",
+  "main": "/lib/es5/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-es3": "rimraf './lib/es3' && tsc -t 'ES3' -m 'commonjs' --outDir './lib/es3' -d --sourceMap ",
+    "compile-es5": "rimraf './lib/es5' && tsc -t 'ES5' -m 'commonjs' --outDir './lib/es5' -d --sourceMap ",
+    "compile-esm": "rimraf './lib/esm' && tsc -t 'ES6' -m 'esnext' --outDir './lib/esm' -d --sourceMap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IceyIsAlreadyTaken/curryTest.git"
+  },
+  "keywords": [
+    "curry",
+    "partial"
+  ],
+  "author": "Icey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IceyIsAlreadyTaken/curryTest/issues"
+  },
+  "homepage": "https://github.com/IceyIsAlreadyTaken/curryTest#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {}
+}
