@@ -1,4 +1,4 @@
-
+[![Build Status](https://www.travis-ci.org/IceyIsAlreadyTaken/curryTest.svg?branch=master)](https://www.travis-ci.org/IceyIsAlreadyTaken/curryTest)
 ## Install
 ```
 yarn add curry-and-partial
