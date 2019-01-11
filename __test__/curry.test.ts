@@ -1,7 +1,7 @@
 // const curry = require('../src/index');
 import { curry } from '../src/index';
 
-const sum = (a, b) => {
+const sum = (a: number, b: number): number => {
     return a + b;
 }
 
